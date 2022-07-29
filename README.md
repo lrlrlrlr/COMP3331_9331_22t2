@@ -10,7 +10,9 @@ For H12A and H14A students.
  - Follow the SPEC to design your application, your application should have SAME output as the SPEC example.
 
 
-## Assignment Testcase
+## Assignment Test Instructions
+Note: Please try to run your application with the follwing commands, and check if you have expected output. This is not an official testcase, just for reference, please always follow the instructions of **[Assignment SPEC](https://webcms3.cse.unsw.edu.au/static/uploads/course/COMP3331/22T2/040c4d358872ea23642cddd25ae78bbe77de773a4772d04bf0ea82612014b4c2/Assigment_22T2-version-1.0.pdf)**.
+
 ### login
  - login with correct password
  - login with incorrect password, for 3 times. -- the client terminal should shutdown and user should be blocked.
