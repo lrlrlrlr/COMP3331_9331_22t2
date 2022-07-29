@@ -8,7 +8,7 @@ For H12A and H14A students.
  - MUST use UDP for P2P part (otherwise you will lose marks).
  - Use 'try...except...' to catch every exception so your client and server will not crash.
  - Follow the SPEC to design your application, your application should have SAME output as the SPEC example.
-
+ - Do not concern too much about the corner case, make sure the function is working properly at first!
 
 ## Assignment Test Instructions
 Note: Please try to run your application with the follwing commands, and check if you have expected output. This is not an official testcase, just for reference, please always follow the instructions of **[Assignment SPEC](https://webcms3.cse.unsw.edu.au/static/uploads/course/COMP3331/22T2/040c4d358872ea23642cddd25ae78bbe77de773a4772d04bf0ea82612014b4c2/Assigment_22T2-version-1.0.pdf)**.
@@ -56,4 +56,5 @@ who sends ATU command to the server.
  - Login to Yoda only, then issue `UPD` and `UPD Hans Filenotexist.mp4` and `UPD Hans ski.mp4`, your client should prompt an error message. 
  - Login to Yoda and Hans, then try to run `UPD Hans ski.mp4` in Yoda's terminal, you should be able to find the *yoda_ski.mp4* in the folder, try to play the video, see if it is playable.
 
- 
+### What's more
+Please check the **[Assignment SPEC](https://webcms3.cse.unsw.edu.au/static/uploads/course/COMP3331/22T2/040c4d358872ea23642cddd25ae78bbe77de773a4772d04bf0ea82612014b4c2/Assigment_22T2-version-1.0.pdf)**. Page 13~18, test your program with the examples and make sure you have exactly same output.
