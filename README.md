@@ -50,8 +50,8 @@ who sends ATU command to the server.
  
 ### P2P
  - Check the code in *client.py*, make sure it is **UDP** instead of **TCP**;
- - 
- - Login to Yoda only, then issue `UPD` and `UPD Hans`
- - 
+ - Download the video file [ski.mp4](https://github.com/lrlrlrlr/COMP3331_9331_22t2/blob/main/ski.mp4), put it in the same folder with *client.py*.
+ - Login to Yoda only, then issue `UPD` and `UPD Hans Filenotexist.mp4`, your client should prompt an error message. 
+ - Login to Yoda and Hans, then try to run `UPD Hans ski.mp4` in Yoda's terminal, you should be able to find the *yoda_ski.mp4* in the folder, try to play the video, see if it is playable.
 
 (more coming in week9..)
