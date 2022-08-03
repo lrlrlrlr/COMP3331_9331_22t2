@@ -36,8 +36,8 @@ who sends ATU command to the server.
  - Then login Hans, issue the command `RDM b 1 Jun 2022 21:39:00` -- you should be able to see the message from Yoda.
  
 ### SRB & SRM & RDM
- - Login Yoda only, then issue command `SRB` and `SRB Yoda` and `SRB Hans`, the client should display an error message.
- - Login Yoda and Hans, then issue command `SRB Hans` in yoda's terminal and issue the command `SRB Yoda` in Hans' terminal , you should have 2 room now (id 1 and 2)
+ - Login Yoda only, then issue command `SRB` and `SRB Yoda` and `SRB Hans` and `SRB offlineuser`, the client should display an error message.
+ - Login Yoda and Hans, then issue command `SRB Hans` in yoda's terminal and issue the command `SRB Yoda` in Hans' terminal , you should have only 1 room (if a separate room already created for this group of users no matter which user in the group created, the server should not create another separate room, thanks to *@Finbar* to point this problem out ) 
  - Following the last one
    - issue `SRM` in Yoda's terminal, the client should display an error message.  
    - issue the command `SRM 1 Hi, Hans` and `SRM 2 Hi, Hans` in Yoda's terminal -- should be succesful.
